@@ -26,19 +26,15 @@ public class CPerro {
         ArrayList<Perro> lista = null;
         if (atributo.equals("Id")) {
             lista = mperro.mostarPorId();
-            System.out.println("ID_");
         }
         else if(atributo.equals("Nombre")){
             lista = mperro.mostarPorNombre();
-            System.out.println("NJ_");
         }
         else if(atributo.equals("Raza")){
             lista = mperro.mostarPorRaza();
-            System.out.println("R_");
         }
         else if(atributo.equals("Fecha nacimiento")){
             lista = mperro.mostarPorFecha();
-            System.out.println("F_");
         }
          
         for (int i = 0; i < lista.size(); i++) {
@@ -50,4 +46,8 @@ public class CPerro {
         }    
         return modelo;
     } 
+    
+    public void eliminar(String id) {
+    	mperro.eliminar(Integer.parseInt(id));
+    }
 }

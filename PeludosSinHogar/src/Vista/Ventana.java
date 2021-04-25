@@ -132,6 +132,8 @@ public class Ventana extends JFrame{
 				if (fila != -1) {
 					cpo.agregarPerro(tabla1.getValueAt(fila, 0).toString(), tabla1.getValueAt(fila, 1).toString(), tabla1.getValueAt(fila, 2).toString(), tabla1.getValueAt(fila, 3).toString());
 					tabla2.setModel(cpo.MostrarDatos());
+					cp.eliminar(tabla1.getValueAt(fila, 0).toString());
+					tabla1.setModel(cp.MostrarDatos(opciones.getSelectedItem().toString()));
 				}
 			}
 		});

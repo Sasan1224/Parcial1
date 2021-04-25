@@ -143,5 +143,15 @@ public class ModeloPerro {
         }
         return fechaDate;
     }
+    
+    public void eliminar(int id) {
+    	Perro p = null;
+    	for (int i = 0; i < perros.size(); i++) {
+			if (perros.get(i).getId() == id) {
+				p = perros.get(i);
+			}
+		}
+    	perros.remove(p);
+    }
    
 }
