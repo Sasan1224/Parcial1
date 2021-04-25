@@ -1,6 +1,0 @@
-5,Doggy,2
-2,Mateo,5
-4,Anibal,6
-3,Floppi,20
-1,Cancerbero,12
-

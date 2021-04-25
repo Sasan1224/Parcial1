@@ -1,5 +1,0 @@
-2,Gran Danes,12-5-2014
-5,Labrador,10-11-2017
-3,Doberman,25-2-1999
-1,Pastor australiano,25-4-2002
-4,Lobero irlandes,10-7-2013
