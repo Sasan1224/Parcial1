@@ -16,7 +16,6 @@ public class Dog implements Comparable <Dog> {
 		this.id = id;
 		this.date = date;
 		this.posX = 50;
-		//this.posY = posY;
 		this.app = app;
 	}
 	
