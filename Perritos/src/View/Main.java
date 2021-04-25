@@ -15,7 +15,7 @@ public class Main extends PApplet {
 	}
 	
 	public void settings () {
-		size ( 700, 700);
+		size ( 700, 600);
 	}
 	
 	public void  setup () {
@@ -25,7 +25,7 @@ public class Main extends PApplet {
 	}
 	
 	public void draw () {
-		background (200, 100, 200);
+		background (100, 200, 200);
 		
 		for (int i = 0; i <createMain.dog().size(); i++) {
 			createMain.dog().get(i).drawDog((i*(50))+ 80, this);

@@ -21,5 +21,7 @@ public class ControllerMain {
 	public void sortListController (char i) {
 		logics.sortList(i);
 	}
-
+	public void Control (PApplet app) {
+		logics = new Logic (app);
+	}
 }
